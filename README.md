@@ -1,5 +1,9 @@
 # OverPass
 
+[![Support OverPass on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20OverPass-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/mckack)
+
+OverPass is built on Wine, DXMT and many other open-source projects: see [CREDITS](CREDITS.md), and please support them too.
+
 Run Windows games on macOS without managing Wine yourself. Pick a game or launcher, click Install, and OverPass downloads Wine, creates the bottle, installs the runtimes the game needs and adds it to your library.
 
 Status: early release (0.1.0). Expect rough edges.
