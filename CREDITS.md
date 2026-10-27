@@ -1,18 +1,17 @@
 # Credits
 
-OverPass is a front end. Almost everything that makes Windows games run on a Mac was built by the people and
-projects below, over many years. If OverPass is useful to you, please support them first: buy CrossOver,
-donate to Wine, sponsor the developers whose work you rely on. OverPass wouldn't exist without any of them.
+Almost everything that makes Windows games run on a Mac was built by the people and projects below, over many
+years. OverPass wouldn't exist without any of them, so consider donating to them first.
+
+If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/mckack). Thank you!
 
 ## Wine and CodeWeavers
 
 - **[Wine](https://www.winehq.org)** runs Windows programs on macOS, Linux and BSD, and is the core of
   OverPass Wine. LGPL-2.1. [Donate to Wine](https://www.winehq.org/donate).
-- **[CodeWeavers](https://www.codeweavers.com)** employs many of Wine's developers and funds much of its
-  development, including the macOS support OverPass depends on. OverPass Wine is built from Wine and from the
-  LGPL Wine source CodeWeavers publishes for CrossOver. CodeWeavers also funds DXMT (below). The best way to
-  support this work is to [buy CrossOver](https://www.codeweavers.com/crossover), their polished,
-  supported product. OverPass contains no CrossOver code beyond that LGPL Wine source.
+- **[CodeWeavers](https://www.codeweavers.com)**: OverPass Wine is built from Wine and from the LGPL Wine
+  source CodeWeavers publishes for CrossOver. Give their [Trial](https://www.codeweavers.com/crossover) a try
+  and see if CrossOver could be for you!
 
 ## Graphics
 
@@ -54,7 +53,3 @@ Each build of OverPass Wine carries these projects' licence texts in its `licens
 - **[Highball](https://gethighball.com)** shares OverPass's goals. Its
   [credits page](https://gethighball.com/docs/credits/) inspired this one, and its
   [open compatibility database](https://github.com/gauthierpiarrette/highball-db) is worth a look.
-
-## Supporting OverPass
-
-If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/mckack). Thank you.
