@@ -14,6 +14,8 @@ If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/
 - **[CodeWeavers](https://www.codeweavers.com)**: OverPass Wine is built from Wine and from the LGPL Wine
   source CodeWeavers publishes for CrossOver. Give their [Trial](https://www.codeweavers.com/crossover) a try
   and see if CrossOver could be for you!
+- **[Alexander Theißen's Wine fixes](https://github.com/athei/wine/tree/cx-26-patched)** (Mach9): Mac driver,
+  DEP and font fixes on the same CrossOver 26 base, included in OverPass Wine with their authorship. LGPL-2.1.
 
 ## Graphics
 
