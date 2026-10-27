@@ -4,7 +4,7 @@
 
 OverPass is built on Wine, DXMT and many other open-source projects: see [CREDITS](CREDITS.md), and please support them too.
 
-Run Windows games on macOS without managing Wine yourself. Pick a game or launcher, click Install, and OverPass downloads Wine, creates the bottle, installs the runtimes the game needs and adds it to your library.
+Run Windows games on macOS without managing Wine yourself. Pick a game or launcher, click Install, and OverPass downloads Wine, creates the container, installs the runtimes the game needs and adds it to your library.
 
 Status: early release (0.1.0). Expect rough edges.
 
@@ -35,8 +35,8 @@ Needs macOS 15 or later on Apple silicon. Updates after that install from inside
 - A fix for GOG Galaxy in OverPass Wine (rpcrt4), which makes it work.
 - Game clients installed in one click: Steam, Epic, GOG Galaxy, EA app, Battle.net, Ubisoft Connect and Rockstar.
 - Self-updating app: a daily update check, and Check for Updates… with install and relaunch.
-- One-click install of games and launchers. OverPass downloads Wine, creates the bottle, installs the runtimes and adds the program to your library.
-- Bottle defaults like CrossOver's: DLL preferences, Chinese, Japanese and Korean font replacements and appearance settings, for new and existing bottles.
+- One-click install of games and launchers. OverPass downloads Wine, creates the container, installs the runtimes and adds the program to your library.
+- Container defaults like CrossOver's: DLL preferences, Chinese, Japanese and Korean font replacements and appearance settings, for new and existing containers.
 - Components window for Wine, OverPass Runtime and Winetricks, with update checks.
 - Per-app profiles: Windows version, runtimes, environment, DLL overrides and graphics backend. Profiles are plain `.ini` files you can edit and share.
 - Home and library views, with a sidebar category for each launcher.

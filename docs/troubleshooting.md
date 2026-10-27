@@ -12,12 +12,12 @@ library and choose **Edit Profile…**.
    - **OverPass Runtime (Metal)** for DirectX 10, 11 and 12 games (install it in OverPass if you haven't yet).
    - **D3DMetal (Metal)** as an alternative for DirectX 11 and 12.
    - **DXVK (Vulkan via MoltenVK)** or **WineD3D (OpenGL)** for older or unusual games.
-4. Quit everything in the bottle and try once more: **Edit Profile… → Bottle → Quit Everything in Bottle**.
+4. Quit everything in the container and try once more: **Edit Profile… → Container → Quit Everything in Container**.
 
 ## It doesn't start, or shows only a black window
 
-- Check that its launcher (Steam, GOG Galaxy, Epic) is installed in the same bottle and signed in.
-- Some games need extra Windows components. **Edit Profile… → Bottle** installs DirectX June 2010 (which
+- Check that its launcher (Steam, GOG Galaxy, Epic) is installed in the same container and signed in.
+- Some games need extra Windows components. **Edit Profile… → Container** installs DirectX June 2010 (which
   includes Microsoft's XAudio2) and runs winetricks verbs.
 - Windowed mode often helps a game that fails in fullscreen: add its own option (such as `-windowed`) under
   **Edit Profile… → General**.
