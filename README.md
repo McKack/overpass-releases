@@ -10,30 +10,6 @@ Status: early release (0.1.0). Expect rough edges.
 
 This repository holds OverPass's builds while its source repository is private. OverPass checks it for updates by itself (OverPass › Check for Updates…).
 
-**What most other Wine apps don't have**
-
-- **Own open-source Direct3D 10, 11 and 12 runtime (OverPass Runtime, built on DXMT), with DLSS translated to MetalFX, Shader Model 6.8, mesh shaders and tiled resources.**
-- **Per-program rules that also reach programs a launcher starts, so a game started by Steam gets its own settings.**
-- **Profile editor with import and export of profiles.**
-- **Collect Logs: one click gathers the logs for a bug report.**
-- **A fix for GOG Galaxy (an rpcrt4 fix in OverPass Wine that makes it work).**
-- **Game clients installed in one click: Steam, Epic, GOG Galaxy, EA app, Battle.net, Ubisoft Connect and Rockstar.**
-- **Self-updating app: update check, and Check for Updates… with install and relaunch.**
-
-## Screenshots
-
-![Home: featured games and launchers, each with an Install button](docs/screenshots/home.png)
-
-Home lists featured games and launchers. Pick one and click Install.
-
-![Library: installed games and apps](docs/screenshots/library.png)
-
-The library holds everything you have installed, grouped by category.
-
-![Profile editor](docs/screenshots/editor.png)
-
-The profile editor changes a program's Windows version, runtimes, environment, DLL overrides and graphics backend.
-
 ## Install
 
 Paste this into Terminal:
@@ -42,7 +18,7 @@ Paste this into Terminal:
 curl -fsSL https://raw.githubusercontent.com/McKack/overpass-releases/main/install.sh | bash
 ```
 
-It downloads the newest release from this page, puts OverPass in your Applications folder and opens it.
+It downloads the newest release, puts OverPass in your Applications folder and opens it.
 
 Or download `OverPass-<version>.zip` from [Releases](https://github.com/McKack/overpass-releases/releases),
 unzip it and move OverPass to Applications. OverPass isn't notarized by Apple yet, so the first time macOS
@@ -52,6 +28,13 @@ Needs macOS 15 or later on Apple silicon. Updates after that install from inside
 
 ## Features
 
+- Its own open-source Direct3D 10, 11 and 12 runtime (OverPass Runtime, built on DXMT), with DLSS translated to MetalFX, Shader Model 6.8, mesh shaders, tessellation and tiled resources.
+- Per-program rules that also reach programs a launcher starts, so a game started by Steam gets its own settings.
+- Profile editor, with import and export of profiles.
+- Collect Logs: one click gathers the logs for a bug report.
+- A fix for GOG Galaxy in OverPass Wine (rpcrt4), which makes it work.
+- Game clients installed in one click: Steam, Epic, GOG Galaxy, EA app, Battle.net, Ubisoft Connect and Rockstar.
+- Self-updating app: a daily update check, and Check for Updates… with install and relaunch.
 - One-click install of games and launchers. OverPass downloads Wine, creates the bottle, installs the runtimes and adds the program to your library.
 - Bottle defaults like CrossOver's: DLL preferences, Chinese, Japanese and Korean font replacements and appearance settings, for new and existing bottles.
 - Components window for Wine, OverPass Runtime and Winetricks, with update checks.
@@ -59,6 +42,22 @@ Needs macOS 15 or later on Apple silicon. Updates after that install from inside
 - Home and library views, with a sidebar category for each launcher.
 - Utilities such as Notepad++ and MusicBee.
 - Optional D3DMetal: if you have Apple's Game Porting Toolkit, OverPass can import D3DMetal from your own copy. It is not needed and not redistributed.
+
+## Screenshots
+
+Home lists featured games and launchers. Pick one and click Install:
+
+![Home: featured games and launchers, each with an Install button](docs/screenshots/home.png)
+
+The library holds everything you have installed, grouped by category:
+
+![Library: installed games and apps](docs/screenshots/library.png)
+
+The profile editor changes a program's Windows version, runtimes, environment, DLL overrides and graphics backend:
+
+![Profile editor](docs/screenshots/editor.png)
+
+[More screenshots…](docs/SCREENSHOTS.md)
 
 ## Open source
 
