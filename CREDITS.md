@@ -21,6 +21,8 @@ If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/
 
 - **[DXMT](https://github.com/3Shain/dxmt)** by Feifan He (for CodeWeavers) translates Direct3D 10, 11 and 12
   to Metal. OverPass Runtime is DXMT with our patches. LGPL-2.1.
+- **[mtld3d](https://github.com/athei/mtld3d)** by Alexander Theißen runs Direct3D 9 on Metal. OverPass Runtime
+  carries its releases unchanged. zlib licence.
 - **[DXVK](https://github.com/doitsujin/dxvk)** by Philip Rebohle and contributors translates Direct3D 8-11
   to Vulkan; DXMT builds on parts of it too. zlib licence.
 - **[MoltenVK](https://github.com/KhronosGroup/MoltenVK)** runs Vulkan on Metal, with the
