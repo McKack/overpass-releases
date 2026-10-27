@@ -31,7 +31,7 @@ Needs macOS 15 or later on Apple silicon. Updates after that install from inside
 - Its own open-source Direct3D 10, 11 and 12 runtime (OverPass Runtime, built on DXMT), with DLSS translated to MetalFX, Shader Model 6.8, mesh shaders, tessellation and tiled resources.
 - Per-program rules that also reach programs a launcher starts, so a game started by Steam gets its own settings.
 - Profile editor, with import and export of profiles.
-- Collect Logs: one click gathers the logs for a bug report.
+- Report Issue: the log, your Mac's details and the game's settings in a zip and a prefilled GitHub issue, from a new logged run or the last one.
 - A fix for GOG Galaxy in OverPass Wine (rpcrt4), which makes it work.
 - Game clients installed in one click: Steam, Epic, GOG Galaxy, EA app, Battle.net, Ubisoft Connect and Rockstar.
 - Self-updating app: a daily update check, and Check for Updates… with install and relaunch.
@@ -75,4 +75,4 @@ The profile editor changes a program's Windows version, runtimes, environment, D
 
 ## Report problems
 
-Open an issue at [McKack/overpass-releases](https://github.com/McKack/overpass-releases/issues) with what you saw, how to reproduce it, your Mac, macOS version and OverPass version. Attach a Collect Logs zip if you can. See [CONTRIBUTING.md](CONTRIBUTING.md).
+In OverPass, right-click the game and choose **Report Issue…**. It saves the log in a zip on your Desktop and opens an issue at [McKack/overpass-releases](https://github.com/McKack/overpass-releases/issues) with your Mac, macOS and OverPass details filled in; drag the zip into it and say what happened. See [CONTRIBUTING.md](CONTRIBUTING.md).
