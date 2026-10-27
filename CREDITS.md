@@ -9,6 +9,8 @@ If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/
 
 - **[Wine](https://www.winehq.org)** runs Windows programs on macOS, Linux and BSD, and is the core of
   OverPass Wine. LGPL-2.1. [Donate to Wine](https://www.winehq.org/donate).
+- **[macOS Wine builds by Gcenx](https://github.com/Gcenx/macOS_Wine_builds)** are the upstream Wine builds
+  OverPass falls back to, and a reference for building Wine on macOS. LGPL-2.1.
 - **[CodeWeavers](https://www.codeweavers.com)**: OverPass Wine is built from Wine and from the LGPL Wine
   source CodeWeavers publishes for CrossOver. Give their [Trial](https://www.codeweavers.com/crossover) a try
   and see if CrossOver could be for you!
@@ -53,3 +55,20 @@ Each build of OverPass Wine carries these projects' licence texts in its `licens
 - **[Highball](https://gethighball.com)** shares OverPass's goals. Its
   [credits page](https://gethighball.com/docs/credits/) inspired this one, and its
   [open compatibility database](https://github.com/gauthierpiarrette/highball-db) is worth a look.
+- **[ProtonDB](https://www.protondb.com)** collects community compatibility reports, the model for OverPass's
+  open profile database.
+- **[Lutris](https://lutris.net)**, **[Bottles](https://usebottles.com)** and
+  **[Whisky](https://github.com/Whisky-App/Whisky)** are open-source Wine front-ends whose install scripts and
+  ideas inform OverPass. GPL.
+
+## Trademarks
+
+Steam is a trademark of Valve Corporation. Epic Games and the Epic Games Store are trademarks of Epic Games,
+Inc. GOG.com and GOG Galaxy are trademarks of GOG sp. z o.o. EA and the EA app are trademarks of Electronic
+Arts Inc. Battle.net is a trademark of Blizzard Entertainment, Inc. Rockstar Games is a trademark of Take-Two
+Interactive Software, Inc. Ubisoft and Ubisoft Connect are trademarks of Ubisoft Entertainment. Xbox is a
+trademark of Microsoft Corporation.
+
+Store logos only identify each store. They come unmodified from [Simple Icons](https://simpleicons.org) (CC0)
+and, for Xbox, [Bootstrap Icons](https://icons.getbootstrap.com) (MIT); the GOG Galaxy mark in the app is
+OverPass's own. OverPass is not affiliated with or endorsed by any of these companies.
