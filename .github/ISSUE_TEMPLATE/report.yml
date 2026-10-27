@@ -5,9 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Start reports from OverPass: right-click the app and choose **Report Issue…**. OverPass saves a zip with
-        the log on your Desktop and opens this form with the details below filled in. Reports without the zip, or
-        with a changed details block, are closed automatically; editing the issue to fix it reopens it.
+        Start reports from OverPass: right-click the app and choose **Report Issue…**. OverPass saves a zip with the log on your Desktop and opens this form with the details below filled in. Reports without the zip, or with a changed details block, are closed automatically; editing the issue to fix it reopens it.
   - type: textarea
     id: what-happened
     attributes:
