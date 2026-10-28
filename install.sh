@@ -1,13 +1,13 @@
 #!/bin/bash
 # Installs the newest OverPass into /Applications and opens it.
-#   curl -fsSL https://raw.githubusercontent.com/McKack/overpass-releases/main/install.sh | bash
+#   curl -fsSL https://overpass.arctim.no/install | bash
 # Downloaded this way the app isn't quarantined, so macOS opens it without the "can't be verified" prompt.
 set -euo pipefail
 
 ZIP_URL=""
-for REPO in McKack/OverPass McKack/overpass-releases; do
+for REPO in McKack/overpass McKack/overpass-releases; do
     ZIP_URL=$(curl -fsSL "https://api.github.com/repos/$REPO/releases/latest" 2>/dev/null \
-        | grep -o '"browser_download_url": *"[^"]*OverPass[^"]*\.zip"' | head -1 | sed 's/.*"\(https[^"]*\)"/\1/') || true
+        | grep -o '"browser_download_url": *"[^"]*/[Oo]ver[Pp]ass-[^"]*\.zip"' | head -1 | sed 's/.*"\(https[^"]*\)"/\1/') || true
     [ -n "$ZIP_URL" ] && break
 done
 [ -n "$ZIP_URL" ] || { echo "No OverPass release found." >&2; exit 1; }
