@@ -10,17 +10,9 @@ body:
     id: what-happened
     attributes:
       label: What happened
-      description: What you did, what you expected, and what you saw instead.
+      description: Explain the issue you encountered. Are you able to make it happen again, and if so, how?
     validations:
       required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: How to make it happen again
-      placeholder: |
-        1. Start the game
-        2. Load a save
-        3. ...
   - type: textarea
     id: logs
     attributes:
