@@ -3,7 +3,7 @@
 Almost everything that makes Windows games run on a Mac was built by the people and projects below, over many
 years. OverPass wouldn't exist without any of them, so consider donating to them first.
 
-If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/mckack). Thank you!
+If you'd like to support OverPass itself too, there's [Ko-fi](https://ko-fi.com/arctim). Thank you!
 
 ## Wine and CodeWeavers
 
