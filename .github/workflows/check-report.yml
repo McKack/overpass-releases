@@ -67,11 +67,12 @@ jobs:
             if (facts.profile && !/^(none|[A-Za-z0-9][A-Za-z0-9._-]*( \((changed|own)\))?)$/.test(facts.profile))
               problems.push(`The profile ${shown(facts.profile)} isn't a profile ID.`);
             if (facts.store && !/^(none|[A-Za-z]+ [A-Za-z0-9._-]+)$/.test(facts.store)) problems.push(`The store ${shown(facts.store)} isn't understood.`);
-            if (facts.log && !['recorded', 'last run'].includes(facts.log)) problems.push(`The log kind ${shown(facts.log)} isn't understood.`);
+            if (facts.log && !['recorded', 'last run', 'none'].includes(facts.log)) problems.push(`The log kind ${shown(facts.log)} isn't understood.`);
             // The zip is attached on GitHub, or kept by OverPass's report relay (services/report-relay), which links it.
             const attached = /https:\/\/github\.com\/(user-attachments\/files|[\w.-]+\/[\w.-]+\/files)\/\d+\/[^\s)]+\.zip/.test(body);
             const relayed = /https:\/\/overpass-reports\.[\w-]+\.workers\.dev\/logs\/[0-9a-f-]{36}\/[^\s)]+\.zip/.test(body);
-            if (!attached && !relayed)
+            // A report sent without a log (OverPass's manual report) says "log: none" and has no zip.
+            if (!attached && !relayed && facts.log !== 'none')
               problems.push('The log zip isn\'t attached. Drag the "OverPass Logs – … .zip" from your Desktop into the Log box.');
 
             const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number: number });

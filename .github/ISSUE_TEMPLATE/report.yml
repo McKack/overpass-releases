@@ -25,10 +25,10 @@ body:
     id: logs
     attributes:
       label: Log
-      description: Drag the "OverPass Logs – … .zip" from your Desktop into this box. It has your name taken out.
+      description: Drag the "OverPass Logs – … .zip" from your Desktop into this box. It has your name taken out. Leave it empty only for a report OverPass made without a log.
       placeholder: Drop the zip here.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: report
     attributes:
